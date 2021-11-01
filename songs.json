@@ -1,0 +1,71 @@
+[
+    {
+        "title": "creep",
+        "artist": "mxmtoon",
+        "genre": ["Indie", "Pop"],
+        "year": 2021
+    },
+    
+    {
+        "title": "Sofia",
+        "artist": "mxmtoon",
+        "genre": ["Indie", "Pop"],
+        "year": 2020
+    },
+    
+    {
+        "title": "bad idea",
+        "artist": "Chloe Moriondo",
+        "genre": ["Indie"],
+        "year": 2019
+    },
+        
+    {
+        "title": "Be With Me",
+        "artist": "Lisa Ono",
+        "genre": ["Bossa Nova", "Jazz"],
+        "year": 2000
+    },
+
+    {
+        "title": "Pretty World",
+        "artist": "Lisa Ono",
+        "genre": ["Bossa Nova"],
+        "year": 2000
+    },
+    
+    {
+        "title": "All The Way",
+        "artist": "Lisa Ono",
+        "genre": ["Bossa Nova"],
+        "year": 2000
+    },  
+    
+    {
+        "title": "Yesterday",
+        "artist": "Lisa Ono",
+        "genre": ["Bossa Nova", "Pop"],
+        "year": 2000
+    },    
+    
+    {
+        "title": "Mood Indigo",
+        "artist": "Nina Simone",
+        "genre": ["Jazz"],
+        "year": 1958
+    },    
+    
+    {
+        "title": "Don't Smoke in Bed",
+        "artist": "Nina Simone",
+        "genre": ["Jazz"],
+        "year": 1958
+    },    
+    
+    {
+        "title": "He Needs Me",
+        "artist": "Nina Simone",
+        "genre": ["Jazz"],
+        "year": 1958
+    }   
+]

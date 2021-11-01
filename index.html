@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JSON Songlist</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script language="javascript" src="script.js"></script>
+  </head>
+  <body>
+      <div class="serialize">
+          <h2>Serialized JSON file</h2>
+          <p id="serialize"></p>
+      </div>
+      <div class="tablize">
+          <h2>User friendly table</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Genre</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody id="tablize"></tbody>
+          </table>
+      </div>
+      <div class="fitler">
+        <h2>Filter results</h2>
+          <form>
+            Please select a genre: 
+            <select name="select" id="select">
+              <option value="Indie">Indie</option>
+              <option value="Pop">Pop</option>
+              <option value="Bossa Nova">Bossa Nova</option>
+              <option value="Jazz">Jazz</option>
+            </select>
+            <button id="btn">Filter Results</button>
+          </form>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Genre</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody id="filtered"></tbody>
+          </table>
+      </div>
+  </body>
+</html>
