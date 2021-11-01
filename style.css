@@ -1,8 +1,23 @@
-table, form {
+body {
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
     margin-left: auto;
     margin-right: auto;
 }
 
 h2, p, select, button {
     text-align: center;
+}
+
+form {
+    margin: auto;
+    display: table;
+}
+
+.serialize {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }

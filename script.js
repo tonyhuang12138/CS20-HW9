@@ -1,5 +1,3 @@
-console.log($.getJSON("songs.json"));
-
 // Load functions with page
 $(document).ready(function() {
     $.getJSON("songs.json", function(songs) {
